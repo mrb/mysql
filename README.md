@@ -7,6 +7,7 @@ The Mysql Cookbook is a library cookbook that provides resource primitives
 (LWRPs) for use in recipes. It is designed to be a reference example for
 creating highly reusable cross-platform cookbooks.
 
+
 Scope
 -----
 This cookbook is concerned with the "MySQL Community Server",
