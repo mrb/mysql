@@ -83,6 +83,96 @@ class Chef
           recursive true
           action :create
         end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
+        
+         # Support directories
+        directory "#{new_resource.name} :create #{etc_dir}" do
+          path etc_dir
+          owner new_resource.run_user
+          group new_resource.run_group
+          mode '0750'
+          recursive true
+          action :create
+        end
 
         directory "#{new_resource.name} :create #{include_dir}" do
           path include_dir
